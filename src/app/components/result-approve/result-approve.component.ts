@@ -1,13 +1,13 @@
-import { ResultService } from './result.service';
+import { ResultService } from './../result/result.service';
 import { Grade } from './../calculator/calculator.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-result',
-  templateUrl: './result.component.html',
-  styleUrls: ['./result.component.css'],
+  selector: 'app-result-approve',
+  templateUrl: './result-approve.component.html',
+  styleUrls: ['./result-approve.component.css'],
 })
-export class ResultComponent implements OnInit {
+export class ResultApproveComponent implements OnInit {
   grade: Grade;
 
   constructor(private resultService: ResultService) {}

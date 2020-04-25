@@ -2,7 +2,7 @@
   <div class="header">
     Olá Professor
   </div>
-  <form class="form" action="submit">
+  <form class="form">
     <input
       [(ngModel)]="grade.name"
       name="name"
@@ -31,7 +31,7 @@
       class="inputGrade"
       placeholder="Nota da prova 3:"
     />
-    <a routerLink="/result">
+    <a>
       <button (click)="calcGrade()" class="button">
         Calcular
       </button>

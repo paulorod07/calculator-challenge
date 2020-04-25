@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="header">
+    Olá Professor
+  </div>
+  <form class="form" action="submit">
+    <input
+      [(ngModel)]="grade.name"
+      name="name"
+      type="text"
+      class="inputName"
+      placeholder="Nome do Aluno:"
+    />
+    <input
+      [(ngModel)]="grade.grade1"
+      name="grade1"
+      type="number"
+      class="inputGrade"
+      placeholder="Nota da prova 1:"
+    />
+    <input
+      [(ngModel)]="grade.grade2"
+      name="grade2"
+      type="number"
+      class="inputGrade"
+      placeholder="Nota da prova 2:"
+    />
+    <input
+      [(ngModel)]="grade.grade3"
+      name="grade3"
+      type="number"
+      class="inputGrade"
+      placeholder="Nota da prova 3:"
+    />
+    <a routerLink="/result">
+      <button (click)="calcGrade()" class="button">
+        Calcular
+      </button>
+    </a>
+  </form>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div>

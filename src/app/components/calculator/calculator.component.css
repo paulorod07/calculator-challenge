@@ -1,0 +1,36 @@
+.header {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputName {
+  margin-bottom: 30px;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.inputGrade {
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.button {
+  color: #fff;
+  margin-top: 15px;
+  padding: 10px;
+  border: 0;
+  background: rgb(227, 94, 107);
+  border-radius: 4px;
+}
